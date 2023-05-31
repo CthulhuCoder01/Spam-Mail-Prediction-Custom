@@ -19,7 +19,7 @@ This project focuses on using logistic regression, a popular machine learning al
 - **Prediction:** Once the logistic regression model is trained and evaluated, apply it to new, unseen emails to predict whether they are spam or legitimate. This prediction step helps in automating the classification process for future email filtering or sorting tasks.
 
 
-## Logistic Regression Explaination
+## Logistic Regression Explanation
 ```code
 import numpy as np
 from scipy.sparse import csr_matrix
@@ -80,7 +80,7 @@ class LogisticRegression:
 
 ```
 
-## explanation:
+## Explanation:
 
   1. The code defines a LogisticRegression class that implements logistic regression for binary classification.
   2. The class has an initialization method __init__ that sets the learning rate, number of iterations, weights, bias, and loss history.
